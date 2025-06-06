@@ -64,7 +64,7 @@ class FactorialCal extends PowerCal{
 }
 public class Multilevel {
     public static void main(String[] args){
-        // Multilevel.Dog();
+        Multilevel.Dog();
         Multilevel.factpow();
         
     }
