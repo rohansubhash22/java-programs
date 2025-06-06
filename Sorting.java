@@ -1,7 +1,7 @@
 import java.util.*;
 public class Sorting {
     public static void main(String[] agrs){
-        //Sorting.sortpancake();
+        Sorting.sortpancake();
         Sorting.sortSelection();
     }
     static void flip(int[] arr,int k){
