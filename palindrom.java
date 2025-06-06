@@ -1,25 +1,25 @@
 import java.util.*;
 public class palindrom {
     public static void main(String[] agrs){
-        // Scanner s =new Scanner(System.in);
-        // System.out.print("Enter the String: ");
-        // String str1=s.nextLine();
-        // str1=str1. replaceAll("[^a-zA-Z0-9]","").toLowerCase();
-        // String str2="";
-        // for(int i=str1.length()-1;i>=0;i--){
-        //     str2+=str1.charAt(i);
-        // }
-        // boolean a=str1.equals(str2);
-        // if(a){
-        //     System.out.println("String "+str1+" is a palindrom");
-        // }
-        // else{
-        //     System.out.println("String "+str1+" is not a palindrom");
-        // }
-        // palindrom.substr();
+        Scanner s =new Scanner(System.in);
+        System.out.print("Enter the String: ");
+        String str1=s.nextLine();
+        str1=str1. replaceAll("[^a-zA-Z0-9]","").toLowerCase();
+        String str2="";
+        for(int i=str1.length()-1;i>=0;i--){
+            str2+=str1.charAt(i);
+        }
+        boolean a=str1.equals(str2);
+        if(a){
+            System.out.println("String "+str1+" is a palindrom");
+        }
+        else{
+            System.out.println("String "+str1+" is not a palindrom");
+        }
+        palindrom.substr();
         palindrom.longstr();
-        //palindrom.longstrinanotherway();
-        //s.close();
+        palindrom.longstrinanotherway();
+        s.close();
     }
     public static void substr(){
         Scanner s=new Scanner(System.in);
